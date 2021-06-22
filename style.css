@@ -1,9 +1,10 @@
-body{
+body {
     background-color: #232323;
     margin: 0;
     font-family: 'Calibri', 'Arial Narrow', Arial, sans-serif;
 }
-h1{
+
+h1 {
     color: white;
     text-align: center;
     background-color: steelblue;
@@ -13,41 +14,46 @@ h1{
     padding: 20px 0;
 }
 
-#message{
+#message {
     display: inline-block;
     width: 20%;
 }
 
-.square{
+.square {
     width: 30%;
     background-color: purple;
     padding-bottom: 30%;
     float: left;
-    margin: 1.5%; 
+    margin: 1.5%;
     font-weight: normal;
     border-radius: 10%;
     transition: background 0.5s;
     -webkit-transition: background 0.6s;
     -moz-transition: background 0.6s;
 }
-#container{
+
+#container {
     margin: 20px auto;
     max-width: 600px;
 }
-#strip{
+
+#strip {
     background-color: white;
     height: 30px;
     text-align: center;
     color: black;
 }
-.selected{
+
+.selected {
     color: white;
     background-color: steelblue
 }
-#colorDisplay{
+
+#colorDisplay {
     font-size: 80px;
 }
-button{
+
+button {
     border: none;
     background: none;
     text-transform: uppercase;
@@ -61,7 +67,14 @@ button{
     -moz-transition: all 0.6s;
     outline: none;
 }
-button:hover{
+
+button:hover {
     color: white;
     background-color: steelblue
+}
+
+@media (max-width: 600px) {
+    #colorDisplay {
+        font-size: 48px;
+    }
 }
